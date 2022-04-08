@@ -1,0 +1,21 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.barlow{
+  
+}
+section.box-a{
+    background-image: url(./images/desktop/image-header.jpg);
+    height: 40em;
+    background-position:center;
+    background-size: cover;
+
+}
+.navbar-container{
+    
+}
+
+  
