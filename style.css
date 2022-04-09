@@ -1,17 +1,30 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Josefin+Sans:wght@300;400;600&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Josefin+Sans:wght@300;400;600&family=Poppins:wght@400;500;600;700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    /* height:100%; */
 }
+
 .barlow{
-  
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.fraunces{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 section.box-a{
     background-image: url(./images/desktop/image-header.jpg);
     height: 40em;
     background-position:center;
     background-size: cover;
+    position: relative;
+    
 
 }
 .navbar-container{
