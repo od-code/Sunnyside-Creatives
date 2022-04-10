@@ -4,10 +4,9 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    /* height:100%; */
 }
-
-.barlow{
+/* The fonts  */
+ .barlow{
     font-family: 'Barlow', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -17,18 +16,39 @@
     font-family: 'Fraunces', serif;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
-}
-section.box-a{
-    background-image: url(./images/desktop/image-header.jpg);
-    height: 40em;
-    background-position:center;
-    background-size: cover;
-    position: relative;
-    
+} 
 
-}
-.navbar-container{
-    
-}
+
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height:30%;
+}
