@@ -13,11 +13,7 @@
 .fraunces{
     font-family: 'Fraunces', serif;  
 } 
-/* Root section style  */
-section{
-    height: 100%;
-    width: 100%;
-}
+
 /* The header containing the navigation links  */
 .box-a{
     background-image: url(./images/desktop/image-header.jpg);
@@ -26,7 +22,6 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    /* position: relative; */
 }
 /* The Nav elements  */
 .navbar-container{
@@ -50,10 +45,12 @@ ul{
 li{
     margin: 0 20px;
 }
+/* The navigation button on the right  */
 nav button{
     padding: 15px 30px;
     border: none;
     border-radius: 40px;
+    text-transform: uppercase;
 }
 /* The heading and the and the arrow image  */
 
@@ -76,18 +73,83 @@ letter-spacing: 4px;
 #arrow{
     margin-top: 4em;
 }
-/* The second box with two-grid column  */
-.grid-col-2{
+/* The second ,third and fourth  section wrapped in one div    */
+.content{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+grid-template-areas:
+'description1 image1 '
+'image2 description2'
+'background1 background2'
 }
-col-reverse{
-    display: grid;
-    grid-template-columns: 50% 50%;
+/* The first two secton boxes with texts  and a link  */
+.description{
+    padding: 10em  8em;
+    line-height: 2em;
 }
+/* The images in the first and second column   */
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  /* The description components  */
+  .description h2{
+      font-weight: 900;
+      font-size: 2em;
+      line-height: 1.5em;
+  }
+  .description p{
+      margin: 1.5em 0;
+  }
+  .description a{
+      font-weight: 700;
+      color: #000;
 
+  }
 
+.description1 { grid-area: description1;
+ }
+.img1 { grid-area: image1;
+ }
+.img2 { grid-area:image2;
+ }
+.description2 { grid-area: description2;
+ }
+.bg-img1{ grid-area: background1;
+ }
+.bg-img2 { grid-area: background2;
+ }
+ /* T he fourth section with backround images and texrs on topv */
+ .bg-img1{
+     background-image: url(./images/desktop/image-graphic-design.jpg);
+     height: 40em;
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
 
+ }
+.bg-img2{
+    background-image: url(./images/desktop/image-photography.jpg);
+    height: 40em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+  .bg-p{
+margin-top: 24em;
+line-height: 25px;
+  }
+  .bg-img .text-md{
+margin-bottom: 20px;
+font-weight: 800;
+font-size: 25px;
+  }
   
 
 
