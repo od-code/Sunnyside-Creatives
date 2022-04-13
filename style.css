@@ -51,6 +51,7 @@ nav button{
     border: none;
     border-radius: 40px;
     text-transform: uppercase;
+    background-color: #fff;
 }
 /* The heading and the and the arrow image  */
 
@@ -129,6 +130,7 @@ grid-template-areas:
      display: flex;
      flex-direction: column;
      text-align: center;
+     color: hsl(167, 40%, 24%);
 
  }
 .bg-img2{
@@ -140,6 +142,7 @@ grid-template-areas:
     display: flex;
      flex-direction: column;
      text-align: center;
+     color:  hsl(198, 62%, 26%);
 }
   .bg-p{
 margin-top: 24em;
@@ -150,35 +153,72 @@ margin-bottom: 20px;
 font-weight: 800;
 font-size: 25px;
   }
-  
+  /* The box containing the testimonials  */
+  /* The heading light text  */
+    .text-light{
+      width: 100%;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 5em;
+      color:hsl(210, 4%, 67%);
+  }
+/* The card container  */
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 3em  13em 7em;
+}
+.card{
+text-align:center;
+line-height: 30px;
+}
+.card img{
+    border-radius: 50%;
+    width: 5em;
+}
+.card p:nth-of-type(1){
+    margin: 3em 0;
+    font-weight: 500;
+}
+.card-mid{
+margin: 0  1em;
+}
+.text-xs{
+    font-weight: 700;
+    font-size: 16px;
+}
+.title{
+    color:hsl(232, 10%, 55%);
+}
+/* The fourth container with the four image  */
+.box-f{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.box-f img{
+   width: 25em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* The footer containing the links and icons  */
 
 footer{
     width: 100%;
-    height:30%;
+    height: 20em;
+background-color: hsl(167, 40%, 75%);
+text-align: center;
+color: hsl(168, 34%, 41%);
+padding: 3em 0;
+} 
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+footer a{
+    text-decoration: none;
+}
+.socials li{
+    margin: 0 8px;
 }
