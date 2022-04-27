@@ -39,6 +39,10 @@
     text-decoration: none;
     color: #fff;
 }
+.nav-elements a:hover{
+    text-decoration: underline;
+    font-weight:700;
+}
 ul{
     list-style: none;
 }
@@ -56,7 +60,7 @@ nav button{
     
 }
 nav button:hover{
-    background-color: lightgray;
+    background-color: rgba(250, 245, 245, 0.4);
     color:hsl(0, 0%, 100%);
     cursor: pointer;
 }
@@ -109,12 +113,36 @@ grid-template-areas:
   .description p{
       margin: 1.5em 0;
   }
-  .description a{
+  .description1 a{
       font-weight: 700;
       color: #000;
-
+      text-decoration: underline;
+      text-decoration-color:hsl(51, 100%, 49%) ;
+      text-decoration-thickness:5px;
   }
+  .description1 a:hover{
+    font-weight: 900;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color:hsl(51, 100%, 49%) ;
+    text-decoration-thickness:7px;
+}
+.description2 a{
+    font-weight: 700;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color:  hsl(7, 99%, 70%);
+    text-decoration-thickness:5px;
 
+}
+  .description2 a:hover{
+    font-weight: 900;
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color:  hsl(7, 99%, 70%);
+    text-decoration-thickness:7px;
+
+}
 .description1 { grid-area: description1;
  }
 .img1 { grid-area: image1;
@@ -234,13 +262,11 @@ footer a:hover{
 }
 
 
-.socials li{
-    margin: 0 8px;
+img .change-color{
+    margin: 5px 8px;
 color: hsl(168, 34%, 41%);
 
 }
-.socials li:hover{
-    border:1px solid #fff;
-    border-radius: 50%;
-    padding: 0.5em;
+img .change-color:hover{
+    fill: #fff;
 }
