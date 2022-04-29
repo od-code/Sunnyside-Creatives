@@ -264,9 +264,58 @@ footer a:hover{
 
 img .change-color{
     margin: 5px 8px;
-color: hsl(168, 34%, 41%);
+/* color: hsl(168, 34%, 41%); */
 
 }
 img .change-color:hover{
     fill: #fff;
 }
+
+@media only screen and (max-width: 375px){
+    /* The header containing the navigation links  */
+.box-a{
+    background-image: url(./images/desktop/image-header.jpg);
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+/* The site logo  */
+.nav-logo img{
+    width: 7em;
+}
+/* The nav elements at the top with a button  */
+.nav-elements{
+    display: none;
+}
+
+/* The h1 text at the homepage  */
+.text-xl{
+    font-size: 3em;
+    text-align: center;
+}
+/* The following contents containing a paragrapgh and an image beside it */
+.content{
+    display: grid;
+    grid-template-areas:
+            'image1 '
+            'description1'
+            'image2'
+            ' description2'
+            'background1' 
+            'background2'
+
+}
+.description{
+    text-align: center;
+    max-width: 100%;
+    /* font-size: 3em; */
+}
+  img .img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
