@@ -318,8 +318,9 @@ img .change-color:hover{
     object-fit: contain;
   }
   /* The testimonial section header */
-  .title{
-      margin-bottom: 5em;
+   .text-light{
+      margin-bottom: 2em;
+      font-size: 1.5em;
   }
   /* The testimonial cards  */
   .cards{
