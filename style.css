@@ -335,5 +335,15 @@ img .change-color:hover{
 .card p {
     margin: 1em 0;
 }
+/* The section near the footer with four images  */
+.box-f{
+    display: grid;
+    grid-template-columns: 50%  50%;
+    grid-template-rows: 50% 50%;
+    grid-gap:0;
+}
+.box-f img{
+    width: 12em;
+}
 }
 
